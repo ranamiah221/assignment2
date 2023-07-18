@@ -144,7 +144,7 @@ main{
     gap: 52px;
 }
 .layout-image-container{
-      padding: 3rem 0prem;
+      padding: 3rem 0rem;
       width: 55%;
 }
 .layout-text-container{
@@ -163,15 +163,9 @@ main{
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
 }
 #btn3{
     background-color:  #FF42A5 ;
-}
-.ellipsis{
-    border: 1px solid black;
-    width: 30px;
-    height: 10px;
 }
 .simple-description{
     color: #534C64;
@@ -182,14 +176,21 @@ main{
     color: #534C64;
     font-size: 32px;
     font-weight: 700;
-    line-height: 45px;
     margin-top:-7px ;
 }
-
+.btn-primary{
+    margin-top: 40px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+}
 
 /* responsive for mobile */
 @media  screen and (max-width:576px) {
-    nav{
+    nav,.layout-container{
         max-width: 100%;
         flex-direction: column;
          align-items: center;
@@ -241,6 +242,43 @@ main{
         border: 0px;
 
     }
+    .layout-image-container{
+        width: 80%;
+        padding: 0px;
+    }
+    .layout-image-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .layout-text-container{
+        width: 70%;
+        margin: 0px auto;
+        margin-top: -20px;
+        text-align: center;
+    }
+    .layout-title{
+        font-size: 25px;
+    }
+    .layout-text-container >p{
+        margin-top: 0px;
+    }
+    .layout-description{
+        font-size: 8px;
+
+    }
+    .layout-container{
+        gap: 5px;
+        justify-content: start;
+    }
+    .simple-description{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .volt-description{
+        font-size: 15px;
+    }
+ 
+
 
 
 
