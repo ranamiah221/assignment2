@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Shared style */
+.primary-color{
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* nav ber style */
+/* header section start */
+.header-container{
+    #FFFFFF
+}
+nav{
+    max-width: 1440px;
+    height: 70px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-left-container{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.nav-menu-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 120px;
+    
+}
+.nav-left-container img{
+    object-fit: cover;
+}
+.nav-menu-container li{
+    list-style: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-menu-container a{
+    text-decoration: none;
+  
+}
+.nav-title{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-menu-container >.follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+ /* header section end */
+/* main section start */
+main{
+    
+}
+
+/* banner section start */
+.banner-container{
+    max-width: 1440px;
+    margin: 0px auto;
+    height: 700px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 68px;
+  
+}
+.banner-text-container{
+      width: 50%;
+}
+.banner-image-container{
+      margin-top: 20px;
+      width: 50%;
+    
+}
+.banner-image-container img{
+    height: 100%;
+    width: 100%;
+    padding-top: 1.2rem;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600; 
+    margin-bottom: 0px;
+}
+.banner-heading{
+     margin-top: 0px;
+     margin-bottom: 0px;
+     font-size: 95px;
+     font-weight: 800;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-description{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+.primary-btn{
+    margin-top: 40px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+}
+#b1{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin-right: 15px;
+}
+#b2{
+    background: #4EC5F7;
+}
+
+
+
+/* responsive for mobile */
+@media  screen and (max-width:576px) {
+
+    nav{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .nav-left-container{
+        flex-direction: column;
+        margin: 0px auto;
+        gap: 8px;
+    }
+    .nav-menu-container{
+        flex-direction: column;
+        gap: 8px;
+         margin: 0px auto;
+    }
+}
+
+/* responsive for medium device and tablet */
+@media  screen and (max-width:) {
+    
+}
