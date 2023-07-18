@@ -71,6 +71,10 @@ main{
 }
 
 /* banner section start */
+.banner-section{
+    background-image: url("../images/Group\ 14.png"),
+    linear-gradient();
+}
 .banner-container{
     max-width: 1440px;
     margin: 0px auto;
@@ -186,6 +190,9 @@ main{
     font-size: 20px;
     font-weight: 600;
     border: 0px;
+}
+.games-container{
+    display: flex;
 }
 
 /* responsive for mobile */
