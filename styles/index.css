@@ -246,7 +246,7 @@ main{
     font-size: 20px;
     font-weight: 500;
 }
-/* heros section */
+/* heros section start*/
 .heros{
 
 }
@@ -279,7 +279,7 @@ main{
     margin-top:-200px ;
 }
 
-/* link style */
+/* link section start */
 .link-container{
     max-width: 1440px;
     height: 215px;
@@ -311,7 +311,7 @@ main{
     width: 100%;
     
 }
-/* footer */
+/* footer section start */
 footer{
     background: #0B0223;
 }
@@ -330,7 +330,6 @@ footer{
 .footer-container img{
     width: 50px;
     height: 50px;
-    margin-bottom:20px;
 }
 .foter-description{
     color: white;
@@ -366,6 +365,7 @@ footer{
 
 /* responsive for mobile */
 @media  screen and (max-width:576px) {
+    /* nav ber section */
     nav,.layout-container{
         max-width: 100%;
         flex-direction: column;
@@ -380,6 +380,7 @@ footer{
     .nav-menu-container >.follow{
        margin-top: 30px;
     }
+    /* banner section */
     .banner-container{
         margin-top: 210px;
         background: #FFF;
@@ -390,7 +391,7 @@ footer{
     }
     .banner-text-container{
         width: 80%;
-        background: #FFF;
+        background:#fffffffe ;
         padding: 30px;
     }
     .banner-image-container{
@@ -418,6 +419,7 @@ footer{
         border: 0px;
 
     }
+    /* layout section */
     .layout-image-container{
         width: 80%;
         padding: 0px;
@@ -453,6 +455,7 @@ footer{
     .volt-description{
         font-size: 15px;
     }
+    /* games section */
     .games-container{
         flex-direction: column;
         margin: 0px auto;
@@ -481,6 +484,7 @@ footer{
     .image-description{
       font-size:8px;
     }
+    /* heros section */
     .heros{
         width: 100%;
         
@@ -510,21 +514,37 @@ footer{
 .heros-image-container{
     width: 100%;
 }
-
+/* link section */
 .link-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-top: -320px;
-  
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -300px;
+
+}
+.link-sub-container{
+    width: 1fr;
+    height: 80px;
 }
 
-.link-sub-container{
-    width:100%
-    height:100%;
-    border-radius: 50px;
-    background: #FFF;
-    border: 0px;
+.link-sub-container:hover{
+    border: 2px solid #F948B2;
+    color: #F948B2;
 }
+/* footer section */
+footer{
+    margin-top: 200px;
+    width: 100%;
+    margin: -0px;
+   margin-left: -10px;
+
+
+}
+
 
 
 
