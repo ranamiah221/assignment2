@@ -236,7 +236,45 @@ main{
     font-size: 20px;
     font-weight: 500;
 }
+/* heros section */
+.heros{
 
+}
+.heros-container{
+    max-width:1440px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.heros-text-container{
+    width: 25%;
+    text-align: right;
+}
+.heros-image-container{
+    width: 50%;
+    margin-top: -40px;
+}
+.heros-image-container img{
+    width: 1fr;
+    padding-left: 12%;
+    position: relative;
+}
+.mini-image img{
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top:-200px ;
+}
+.link-container{
+    max-width: 1440px;
+
+}
+.link-sub-container{
+    border: 1px solid;
+}
 
 
 
@@ -331,7 +369,63 @@ main{
     .volt-description{
         font-size: 15px;
     }
- 
+    .games-container{
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    .games-title{
+        margin-top: -330px;
+        padding-top:0 px;
+        text-align: center;
+        color: #0B0223;
+        font-size: 1.5rem;
+        font-weight: 700;   
+    }
+    .games-description{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .img-controls{
+        width: 50%;
+    }
+    .games{
+     display: flex;
+     flex-direction: column;
+
+    }
+    .image-description{
+      font-size:8px;
+    }
+    .heros{
+        width: 100%;
+        
+    }
+ .heros-container{
+    width: 100%;
+    margin-top: 300px;
+    flex-direction: column;
+    gap: 0px;
+    padding-bottom: 510px;  
+}
+.heros-text-container{
+    width: 100%;
+    text-align: center;
+}
+.heros-image-container img{
+    width: 100%;
+    position: relative;
+}
+ .mini-image img{
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: -100px ;
+} 
+.heros-image-container{
+    width: 100%;
+}
 
 
 
