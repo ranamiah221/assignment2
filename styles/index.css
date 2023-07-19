@@ -82,7 +82,7 @@ main{
 
 /* banner section start */
 .banner-section{
-    background-image: url("../images/Group\ 14.png"),linear-gradient(100deg, #F948B2 0%, #8758F1 0% white 0%);
+    background-image: url("../images/Group\ 14.png");
 }
 .banner-container{
     
